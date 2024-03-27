@@ -8,10 +8,10 @@ export class DataService {
   constructor(private http: HttpClient) { }
   
   getProducts() {
-    return this.http.get("http://localhost:3000/product");
+    return this.http.get("https://ecommerce-backend-38h0.onrender.com/product");
   }
 
   createProduct(payload: any) {
-    return this.http.post("http://localhost:3000/product", payload);
+    return this.http.post("https://ecommerce-backend-38h0.onrender.com/product", payload);
   }
 }
