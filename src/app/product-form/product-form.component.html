@@ -1,0 +1,10 @@
+<div class="form">
+    <h1>Add Product Form</h1>
+    <label for="name">Name</label>
+    <input type="text" [(ngModel)]="product.name" id="name"  />
+    <label for="Price">Price</label>
+    <input type="text" [(ngModel)]="product.price" id="Price" />
+    <label for="Quantity">Quantity</label>
+    <input type="text" [(ngModel)]="product.q" id="Quantity" />
+</div>
+<button (click)="handleAddProduct()">Add Product +</button>

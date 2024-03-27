@@ -1,0 +1,19 @@
+<div class="container">
+    <table>
+        <tr>
+            <th>SNo</th>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Quanity</th>
+        </tr>
+        <tr *ngFor="let product of products">
+            <td>1</td>
+            <td>{{product.name}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.q}}</td>
+        </tr>
+    </table>
+</div>
+
+
+<app-product-form></app-product-form>
